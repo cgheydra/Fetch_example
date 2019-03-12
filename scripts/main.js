@@ -2,7 +2,7 @@
 function getAPIdata() {
 
 	// construct request
-	var request = 'http://api.openweathermap.org/data/2.5/weather?appid=b0c8dafa512a0134e90df6ece3c2b7a2&q=the%20Hague,nl';
+	var request = 'https://api.openweathermap.org/data/2.5/weather?appid=b0c8dafa512a0134e90df6ece3c2b7a2&q=the%20Hague,nl';
 
 	// get current weather
 	fetch(request)	
